@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="home-container">
+
+    <!-- BEM-VINDO CENTRAL -->
+    <div class="boas-vindas">
+        <h1>Bem-vindo 👋</h1>
+        <p>
+            Este é meu portfólio como estudante de Ciência da Computação.
+Aqui você encontra um pouco sobre mim, minha trajetória profissional
+e meu principal projeto acadêmico em desenvolvimento.
+        </p>
+    </div>
+
+    <!-- SOBRE MIM -->
+    <div class="secao">
+        <div class="titulo" onclick="toggleSecao(this)">
+            👩‍🎓 Sobre mim
+            <span class="seta">▶</span>
+        </div>
+        <div class="conteudo">
+            <p>
+                Sou estudante de Ciência da Computação, atualmente no
+                <strong>7º semestre</strong>, no
+                <strong>Centro Universitário das Américas (FAM)</strong>.
+            </p>
+            <p>
+                Atualmente busco uma oportunidade de estágio, com foco em
+Full Stack, para entrar na área de tecnologia, aprender na prática
+e crescer profissionalmente, mesmo começando pelo básico.
+            </p>
+        </div>
+    </div>
+
+    <!-- EXPERIÊNCIA PROFISSIONAL -->
+    <div class="secao">
+        <div class="titulo" onclick="toggleSecao(this)">
+            💼 Experiência profissional
+            <span class="seta">▶</span>
+        </div>
+        <div class="conteudo">
+            <p>
+                Sou formada em Técnico Profissionalizante em Administração e atuo
+há 3 anos no mercado de trabalho, onde desenvolvi responsabilidade,
+organização, comunicação e trabalho em equipe.
+            </p>
+            <p>
+                Essa experiência contribuiu diretamente para minha maturidade
+profissional e comprometimento com aprendizado contínuo.
+            </p>
+        </div>
+    </div>
+
+    <!-- PETEXPRESS -->
+    <div class="secao">
+        <div class="titulo" onclick="toggleSecao(this)">
+            🐶 Projeto Integrador – PetExpress
+            <span class="seta">▶</span>
+        </div>
+        <div class="conteudo">
+            <p>
+                PetExpress é meu Projeto Integrador, atualmente em desenvolvimento,
+com foco em um sistema de entrega de ração para pets.
+            </p>
+            <p>
+                No projeto, trabalhei com:
+            </p>
+            <li>Modelagem de banco de dados</li>
+            <li>Diagramas (casos de uso, classes, sequência e atividades)</li>
+            <li>Desenvolvimento web com HTML, CSS e Java</li>
+            <p>O objetivo do projeto é aplicar, na prática, conceitos aprendidos
+durante a graduação.</p>
+        </div>
+    </div>
+
+    <!-- APRENDIZADOS -->
+    <div class="secao">
+        <div class="titulo" onclick="toggleSecao(this)">
+            💻 Meus aprendizados
+            <span class="seta">▶</span>
+        </div>
+        <div class="conteudo">
+            <ul>
+                <li>HTML semântico e CSS moderno</li>
+                <li>JavaScript e manipulação do DOM</li>
+                <li>Consumo de APIs REST (Fetch API)</li>
+                <li>Versionamento com Git e GitHub</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
