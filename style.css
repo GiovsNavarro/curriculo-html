@@ -2,23 +2,13 @@
     box-sizing: border-box;
 }
 
+/* ===== BODY ===== */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #0f0f0f, #8b0000);
 }
-.container {
-    background: white;
-    width: 350px;
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 /* ===== CARD CENTRAL (HOME) ===== */
 .home-container {
     background: #ffffff;
@@ -29,13 +19,12 @@ body {
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 }
 
-/* Texto interno da home */
 .home-container p {
     color: #333;
     line-height: 1.6;
 }
 
-/* Título principal */
+/* ===== TÍTULO BOAS-VINDAS ===== */
 .boas-vindas h1 {
     text-align: center;
     margin-bottom: 10px;
@@ -67,13 +56,18 @@ body {
 
 /* ===== CADASTRO ===== */
 .container {
-    background-color: #ffffff;
-    padding: 35px;
-    width: 320px;
+    background: #ffffff;
+    width: 350px;
+    padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
 
-    margin: 80px auto;
+    /* CENTRALIZA PERFEITAMENTE */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -106,3 +100,8 @@ button:hover {
     background-color: #a30000;
 }
 
+#mensagem {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
