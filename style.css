@@ -7,7 +7,18 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #0f0f0f, #8b0000);
 }
+.container {
+    background: white;
+    width: 350px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /* ===== CARD CENTRAL (HOME) ===== */
 .home-container {
     background: #ffffff;
@@ -94,3 +105,4 @@ button {
 button:hover {
     background-color: #a30000;
 }
+
