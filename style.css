@@ -19,35 +19,35 @@ body {
 /* Card branco */
 .container {
     background-color: #ffffff;
-    padding: 30px;
-    width: 380px;
+    padding: 20px;
+    width: 350px;
 
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
 }
 
 /* Título */
 .container h1 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 /* Inputs */
 input {
-    padding: 10px;
-    font-size: 15px;
+    padding: 8px;
+    font-size: 10px;
     border-radius: 6px;
     border: 1px solid #ccc;
 }
 
 /* Botão */
 button {
-    padding: 18px;
-    font-size: 20px;
+    padding: 15px;
+    font-size: 15px;
     border: none;
     border-radius: 6px;
 
@@ -108,4 +108,5 @@ button:hover {
     font-size: 15px;
 
 }
+
 
