@@ -2,65 +2,21 @@
     box-sizing: border-box;
 }
 
-/* ===== BODY PADRÃO ===== */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+
+    /* FUNDO VERMELHO */
     background: linear-gradient(135deg, #0f0f0f, #8b0000);
-}
 
-/* ===== HOME ===== */
-.home-container {
-    background: #ffffff;
-    max-width: 800px;
-    margin: 60px auto;
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-}
-
-.home-container p {
-    color: #333;
-    line-height: 1.6;
-}
-
-.boas-vindas h1 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.secao {
-    margin-top: 25px;
-    border-top: 1px solid #ddd;
-    padding-top: 15px;
-}
-
-.titulo {
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.titulo:hover {
-    color: #8b0000;
-}
-
-.conteudo {
-    display: none;
-    margin-top: 10px;
-}
-
-/* ===== CENTRALIZA SOMENTE NA PÁGINA DE CADASTRO ===== */
-.pagina-cadastro {
+    /* CENTRALIZA */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-/* ===== CADASTRO ===== */
+/* CARD BRANCO */
 .container {
     background: #ffffff;
     width: 350px;
@@ -79,14 +35,12 @@ body {
 
 input {
     padding: 12px;
-    font-size: 14px;
     border-radius: 6px;
     border: 1px solid #ccc;
 }
 
 button {
     padding: 12px;
-    font-size: 14px;
     border: none;
     border-radius: 6px;
     background-color: #8b0000;
@@ -96,9 +50,4 @@ button {
 
 button:hover {
     background-color: #a30000;
-}
-
-#mensagem {
-    text-align: center;
-    font-weight: bold;
 }
