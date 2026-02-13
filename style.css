@@ -19,15 +19,15 @@ body {
 /* Card branco */
 .container {
     background-color: #ffffff;
-    padding: 25px;
-    width: 370px;
+    padding: 45px;
+    width: 400px;
 
-    border-radius: 18px;
+    border-radius: 22px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 /* Título */
@@ -38,9 +38,9 @@ body {
 
 /* Inputs */
 input {
-    padding: 10px;
-    font-size: 15px;
-    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 6px;
     border: 1px solid #ccc;
 }
 
@@ -49,7 +49,7 @@ button {
     padding: 18px;
     font-size: 20px;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
 
     background-color: #8b0000;
     color: white;
@@ -108,6 +108,7 @@ button:hover {
     font-size: 15px;
 
 }
+
 
 
 
