@@ -4,13 +4,8 @@
 
 body {
     margin: 0;
-    height: 100vh;
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #0f0f0f, #8b0000);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Card branco */
@@ -57,3 +52,29 @@ button {
 button:hover {
     background-color: #a30000;
 }
+.home-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    color: white;
+}
+
+.boas-vindas h1 {
+    font-size: 32px;
+}
+
+.secao {
+    margin-top: 20px;
+}
+
+.titulo {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.conteudo {
+    display: none;
+    margin-bottom: 10px;
+}
+
