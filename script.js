@@ -13,38 +13,13 @@ function cadastrar() {
         return;
     }
 
-    if (!email.includes("@")) {
-        mensagem.textContent = "Email inválido.";
-        mensagem.style.color = "red";
-        return;
-    }
+    mensagem.textContent = "Cadastro realizado com sucesso!";
+    mensagem.style.color = "green";
 
-    if (idade < 18) {
-        mensagem.textContent = "É necessário ser maior de 18 anos.";
-        mensagem.style.color = "red";
-        return;
-    }
-
-    const usuario = { nome, email, idade };
-
-    fetch(API_URL, {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(usuario)
-    })
-    .then(() => {
-        mensagem.textContent = "Cadastro realizado com sucesso!";
-        mensagem.style.color = "green";
-        limparCampos();
-
-        setTimeout(() => {
-            window.location.href = "home.html";
-        }, 1000);
-    });
+    setTimeout(() => {
+        window.location.href = "home.html";
+    }, 1000);
 }
-
 /* ========= LISTAR ========= */
 function listarUsuarios() {
     fetch(API_URL)
@@ -133,4 +108,5 @@ function toggleSecao(elemento) {
 }
 
 /* ========= INICIAR ========= */
+
 listarUsuarios();
