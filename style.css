@@ -15,8 +15,8 @@ body {
 
 /* ===== CARD ===== */
 .home-container {
-    background: #f5f5f5;
-    width: 350px;
+    background: #f2f2f2;
+    width: 320px;
     padding: 40px 30px;
     border-radius: 25px;
     box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
@@ -30,16 +30,25 @@ body {
 
 /* ===== INPUTS ===== */
 .home-container input {
+    display: block;
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
     border-radius: 8px;
     border: 1px solid #ccc;
     font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.home-container input:focus {
+    border-color: #8b0000;
+    box-shadow: 0 0 5px rgba(139, 0, 0, 0.4);
 }
 
 /* ===== BOTÃO ===== */
 .home-container button {
+    display: block;
     width: 100%;
     padding: 12px;
     background-color: #8b0000;
@@ -53,4 +62,10 @@ body {
 
 .home-container button:hover {
     background-color: #a00000;
+}
+
+/* ===== MENSAGEM ===== */
+#mensagem {
+    margin-top: 15px;
+    font-size: 14px;
 }
