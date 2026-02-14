@@ -49,4 +49,21 @@ body {
     margin: 50px auto;
     border-radius: 10px;
 }
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #8b0000, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
 
