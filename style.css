@@ -13,41 +13,44 @@ body {
     height: 100vh;
 }
 
-/* ===== HOME CARD ===== */
+/* ===== CARD ===== */
 .home-container {
-    background: #ffffff;
-    max-width: 800px;
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    background: #f5f5f5;
+    width: 350px;
+    padding: 40px 30px;
+    border-radius: 25px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
-/* ===== CADASTRO CARD ===== */
-.container {
-    background: white;
-    padding: 30px;
-    width: 400px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+/* ===== TÍTULO ===== */
+.home-container h1 {
+    margin-bottom: 30px;
 }
 
-/* ===== SEÇÕES ===== */
-.secao {
-    margin-top: 25px;
-    border-top: 1px solid #ddd;
-    padding-top: 15px;
+/* ===== INPUTS ===== */
+.home-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
 }
 
-.titulo {
-    font-weight: bold;
+/* ===== BOTÃO ===== */
+.home-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
-.titulo:hover {
-    color: #8b0000;
-}
-
-.conteudo {
-    display: none;
-    margin-top: 10px;
+.home-container button:hover {
+    background-color: #a00000;
 }
