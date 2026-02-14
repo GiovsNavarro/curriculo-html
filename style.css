@@ -39,3 +39,6 @@ body {
     display: none;
     margin-top: 10px;
 }
+body {
+    border: 10px solid lime;
+}
