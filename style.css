@@ -42,3 +42,11 @@ body {
 body {
     border: 10px solid lime;
 }
+.container {
+    background: white;
+    padding: 20px;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
