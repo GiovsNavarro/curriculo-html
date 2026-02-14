@@ -2,21 +2,33 @@
     box-sizing: border-box;
 }
 
-/* ===== BODY NORMAL ===== */
+/* ===== BODY ===== */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #0f0f0f, #8b0000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 /* ===== HOME CARD ===== */
 .home-container {
     background: #ffffff;
     max-width: 800px;
-    margin: 60px auto;
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+/* ===== CADASTRO CARD ===== */
+.container {
+    background: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
 
 /* ===== SEÇÕES ===== */
@@ -39,31 +51,3 @@ body {
     display: none;
     margin-top: 10px;
 }
-body {
-    border: 10px solid lime;
-}
-.container {
-    background: white;
-    padding: 20px;
-    width: 400px;
-    margin: 50px auto;
-    border-radius: 10px;
-}
-body {
-    margin: 0;
-    height: 100vh;
-    background: linear-gradient(to bottom, #8b0000, #000000);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container {
-    background: white;
-    padding: 30px;
-    width: 400px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
-}
-
-
