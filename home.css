@@ -1,55 +1,66 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #2c0000, #b30000);
+    background: linear-gradient(135deg, #2b0000, #b30000);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: blue !important;
-
 }
 
 /* CARD PRINCIPAL */
 .home-container {
-    background: #eaeaea;
+    background: #e9e9e9;
     width: 650px;
     padding: 50px 60px;
     border-radius: 20px;
     box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
 }
 
-/* TÍTULO */
-.home-container h1 {
+/* BOAS-VINDAS */
+.boas-vindas {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
-/* TEXTO ABAIXO DO TÍTULO */
-.home-container > p {
-    text-align: center;
-    font-size: 15px;
-    margin-bottom: 40px;
+.boas-vindas h1 {
+    margin-bottom: 15px;
+}
+
+.boas-vindas p {
+    font-size: 14px;
     color: #333;
 }
 
-/* CADA LINHA DE TÓPICO */
-.topico {
+/* CADA SEÇÃO */
+.secao {
+    border-top: 1px solid #bdbdbd;
+}
+
+/* TÍTULO CLICÁVEL */
+.titulo {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
-    border-top: 1px solid #bbb;
+    padding: 18px 0;
     font-weight: 600;
     cursor: pointer;
 }
 
-/* Remove a primeira linha extra */
-.topico:first-of-type {
-    border-top: 1px solid #bbb;
+/* HOVER */
+.titulo:hover {
+    color: #8b0000;
 }
 
-/* Hover suave */
-.topico:hover {
-    color: #8b0000;
+/* CONTEÚDO ESCONDIDO */
+.conteudo {
+    display: none;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* LISTAS */
+.conteudo ul {
+    padding-left: 20px;
 }
