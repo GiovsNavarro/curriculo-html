@@ -1,41 +1,53 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #0f0f0f, #8b0000);
+    background: linear-gradient(135deg, #2c0000, #b30000);
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
+/* CARD PRINCIPAL */
 .home-container {
-    background: white;
-    max-width: 800px;
-    margin: 60px auto;
+    background: #eaeaea;
+    width: 650px;
     padding: 50px 60px;
     border-radius: 20px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
 }
 
 /* TÍTULO */
 .home-container h1 {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+/* TEXTO ABAIXO DO TÍTULO */
+.home-container > p {
+    text-align: center;
+    font-size: 15px;
     margin-bottom: 40px;
+    color: #333;
 }
 
-/* TÓPICOS */
-.home-container h2 {
-    margin-top: 50px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid black; /* linha preta */
+/* CADA LINHA DE TÓPICO */
+.topico {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-top: 1px solid #bbb;
+    font-weight: 600;
+    cursor: pointer;
 }
 
-/* PARÁGRAFOS */
-.home-container p {
-    line-height: 1.6;
-    margin-top: 15px;
+/* Remove a primeira linha extra */
+.topico:first-of-type {
+    border-top: 1px solid #bbb;
 }
 
-/* LISTAS */
-.home-container ul {
-    margin-top: 15px;
-    padding-left: 20px;
+/* Hover suave */
+.topico:hover {
+    color: #8b0000;
 }
