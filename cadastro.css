@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #8b0000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cadastro-container {
+    background: #f2f2f2;
+    width: 320px;
+    padding: 40px 30px;
+    border-radius: 25px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.cadastro-container input,
+.cadastro-container button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
