@@ -1,25 +1,59 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #0f0f0f, #8b0000);
+    background: linear-gradient(135deg, #2b0000, #b30000);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
+/* CARD */
 .cadastro-container {
-    background: #f2f2f2;
-    width: 320px;
-    padding: 40px 30px;
+    background: #e9e9e9;
+    width: 350px;
+    padding: 50px 40px;
     border-radius: 25px;
-    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
     text-align: center;
 }
 
-.cadastro-container input,
-.cadastro-container button {
-    display: block;
+/* TÍTULO */
+.cadastro-container h1 {
+    margin-bottom: 35px;
+}
+
+/* INPUTS */
+.cadastro-container input {
     width: 100%;
+    padding: 12px;
     margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* BOTÃO */
+.cadastro-container button {
+    width: 100%;
+    padding: 12px;
+    background: #a00000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cadastro-container button:hover {
+    background: #7a0000;
+}
+
+/* MENSAGEM DE SUCESSO */
+.mensagem-sucesso {
+    margin-top: 15px;
+    color: green;
+    font-size: 14px;
 }
